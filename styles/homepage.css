@@ -34,8 +34,34 @@
 /* Feature section styles */
 .features-section{
     height: 400px;
-    background-image: url(../img/sumi_wave.jpg);
     background-size: 260px;
-    background-color: #11122b;
-    border-top: 10px solid white;
+    background-color: #3c0301;
+    border: 10px solid #190a0a;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mansalva', serif;
+}
+
+.features-section > .columns-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 5px solid #ce3535;
+}
+
+.features-section > .columns-wrapper > .fa-arrow-down:hover{
+    border-bottom: 5px solid #ce3535;
 }
