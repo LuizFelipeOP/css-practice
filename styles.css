@@ -33,3 +33,10 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
+
+.nav-link{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.contact-hours > .phone{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
