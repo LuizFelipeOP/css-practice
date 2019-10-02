@@ -15,10 +15,7 @@ body{
     padding: 60px 100px ; /*top-bottom  right-left */
 }
 
-.navigation-wrapper .center-collumn > .links-wrapper >.nav-link{
-        color: #cbcbcb;
-
-}
+/* left collumn styles */
 .navigation-wrapper > .left-collumn{
     display: flex;
     align-items: center;
@@ -44,10 +41,7 @@ links-wrapper > .nav-link{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.navigation-wrapper > .right-collumn > .address-wrapper{
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
+/* center collumn styles */
 .navigation-wrapper > .center-collumn{
     display: grid;
     grid-template-collumns: 1fr;
@@ -55,6 +49,10 @@ links-wrapper > .nav-link{
     width: 500px;
 }
 
+.navigation-wrapper .center-collumn > .links-wrapper >.nav-link{
+    color: #cbcbcb;
+
+}
 .navigation-wrapper > .center-collumn > .banner-image {
     display: flex;
     justify-content: center;
@@ -68,4 +66,50 @@ links-wrapper > .nav-link{
     display: flex;
     justify-content: space-between;
     align-items:  center;
+}
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+.links-wrapper > .nav-link a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+/* right collumn styles */
+.navigation-wrapper > .right-collumn > .address-wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+}
+.navigation-wrapper > .right-collumn > .contact-icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+.navigation-wrapper > .right-collumn {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .right-collumn > .address-wrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-collumn > .address-wrapper a:hover{
+    color:#cea135;
+}
+
+.navigation-wrapper > .right-collumn > .contact-icon a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-collumn > .contact-icon a:hover{
+    color: #cea135;
 }
