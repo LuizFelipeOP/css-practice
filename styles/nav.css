@@ -1,12 +1,8 @@
 
-/* common style */
-body{
-    margin: 0px;
-}
 /* commin nav styles */
 .navigation-wrapper{
     height: 190px;
-    background-color: #11122b;
+    background-color: #351616;
     color: #cbcbcb;
     display: flex;
     justify-content: space-between;
@@ -37,9 +33,16 @@ body{
 links-wrapper > .nav-link{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
-.navigation-wrapper > .contact-hours > .phone{
+.navigation-wrapper > .left-collumn > .contact-hours > .phone{
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
 }
+.navigation-wrapper > .left-collumn > .contact-hours > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #858585;
+    font-size: 0.8em;
+}
+
 
 /* center collumn styles */
 .navigation-wrapper > .center-collumn{
@@ -78,7 +81,7 @@ links-wrapper > .nav-link{
     transition: 0.5s;
 }
 .links-wrapper > .nav-link a:hover{
-    color: #cea135;
+    color: #ce3535;
     letter-spacing: 2px;
 }
 /* right collumn styles */
@@ -101,7 +104,7 @@ links-wrapper > .nav-link{
     transition: 0.5s;
 }
 .navigation-wrapper > .right-collumn > .address-wrapper a:hover{
-    color:#cea135;
+    color:#ce3535;
 }
 
 .navigation-wrapper > .right-collumn > .contact-icon a{
@@ -111,5 +114,5 @@ links-wrapper > .nav-link{
     transition: 0.5s;
 }
 .navigation-wrapper > .right-collumn > .contact-icon a:hover{
-    color: #cea135;
+    color: #ce3535;
 }

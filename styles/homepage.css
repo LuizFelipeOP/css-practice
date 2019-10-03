@@ -1,0 +1,41 @@
+/* hero section styles */
+
+.hero-section{
+    background-image: url(../img/tanjiro.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    background-color: #330c0c;
+    color: #cbcbcb;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading{
+    background-color: #ce3535;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading h3{
+    color: #11122b;
+}
+
+/* Feature section styles */
+.features-section{
+    height: 400px;
+    background-image: url(../img/sumi_wave.jpg);
+    background-size: 260px;
+    background-color: #11122b;
+    border-top: 10px solid white;
+}
