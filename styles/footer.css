@@ -1,0 +1,56 @@
+.footer-wrapper{
+    background-color: #191919;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*padding: 60px 100px 60px 100px; /*relogio */
+    padding:  80px 582px ; /*top-bottom  right-left */
+}
+.footer-wrapper .center-element > .links-wrapper-footer >.nav-link{
+    color: #cbcbcb;
+
+}
+.footer-wrapper > .center-element > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+.footer-wrapper > .center-element > .banner-image img{
+    width: 400px;
+    height: 100%;
+}
+
+/* .footer-wrapper > .center-element{
+    display: grid;
+    grid-template-collumns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+
+
+.links-wrapper-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+.links-wrapper-footer > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+.links-wrapper-footer > .nav-link a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper-footer > .nav-link a:hover{
+    color: #ce3535;
+    letter-spacing: 2px;
+}
+.footer-wrapper > .center-element > .contact-hours-footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+} */
