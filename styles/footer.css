@@ -2,55 +2,53 @@
     background-color: #191919;
     color: #cbcbcb;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*padding: 60px 100px 60px 100px; /*relogio */
-    padding:  80px 582px ; /*top-bottom  right-left */
-}
-.footer-wrapper .center-element > .links-wrapper-footer >.nav-link{
-    color: #cbcbcb;
-
-}
-.footer-wrapper > .center-element > .banner-image {
-    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -4px;    
 }
-.footer-wrapper > .center-element > .banner-image img{
+
+
+.footer-wrapper  > .banner-image img{
     width: 400px;
     height: 100%;
 }
 
-/* .footer-wrapper > .center-element{
-    display: grid;
-    grid-template-collumns: 1fr;
-    grid-gap: 42px;
-    width: 500px;
-}
-
-
-
-.links-wrapper-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
-}
-.links-wrapper-footer > .nav-link {
-    width: 70px;
-    text-align: center;
-}
-.links-wrapper-footer > .nav-link a{
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: #cbcbcb;
-    text-decoration: none;
-    transition: 0.5s;
-}
-.links-wrapper-footer > .nav-link a:hover{
-    color: #ce3535;
+.footer-wrapper > .contact-hours-footer span{ 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
     letter-spacing: 2px;
 }
-.footer-wrapper > .center-element > .contact-hours-footer{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+.footer-wrapper > .contact-hours-footer > .hours{ 
+    font-size: 0.8em;
+    color: #ce3535;
+    text-transform: uppercase;
+}
+.footer-wrapper > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
 
-} */
+.footer-wrapper > .icon-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrapper > .icon-wrapper  a{
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.footer-wrapper > .icon-wrapper  a:hover{
+    color: #ce3535;
+}
+
+.footer-wrapper > .copyright-wrapper{
+    margin-bottom:  42px;
+    font-size: 0.7em;
+}
