@@ -20,6 +20,26 @@
 
 }
 
+#menu{ /*style do menu */
+    position: relative;
+    height: 510px;
+    overflow: hidden;
+}
+
+#menu-img{ /*style do menu */
+    position: absolute;
+    top: -110px;
+    bottom:0;
+    right: 0;
+    left: 0;    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    -webkit-filter: brightness(70%);
+
+}
 .skewed-header > .skewed-header-wrapper{
     position: absolute;
     display: flex;
