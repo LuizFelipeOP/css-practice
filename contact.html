@@ -2,15 +2,161 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Homepage</title>
+    <title>Sobre</title>
     <meta name="viewport" content="width=device-width, inital-scale-1">
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/8156c23daf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva|Roboto|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/skewed-header.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/buttom.css">
+
 </head>
 <body>
+    <div class="skewed-header"> 
+        <div class="header-bg" style="background-image: url('img/team-fanart.jpg')"></div>
 
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+        <div class="skewed-header-wrapper">
+            <div class="skewed-header-content">
+                <div class="heading-wrapper">
+                    <h1>Contato</h1>
+                </div>
+
+                <div class="links-wrapper">
+                    <div class="nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    
+                    <div class="nav-link">
+                        <a href="about.html">Sobre</a>
+                    </div>
+                    
+                    <div class="nav-link">
+                        <a href="menu.html">Menu</a>
+                    </div>
+                    
+                    <div class="nav-link">
+                        <a href="contact.html">Contact</a>
+                    </div>        
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <div class="contact-grid-wrapper">
+            <div class="company-metadata-sidebar-wrapper">
+                <div class="logo">
+                    <img src="img/Demon_Slayer_Logo.png" alt="Logo">
+                </div>
+
+                <div class="company-details-wrapper">
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <div>
+                        Rua 123, Qualquer lugar 
+                    </div>
+                </div>
+
+                <div class="company-details-wrapper">
+                    <i class="fas fa-phone-volume"></i>
+
+                    <div>
+                        1234-1234 
+                    </div>
+                </div>
+
+                <div class="company-details-wrapper">
+                    <i class="fas fa-clock"></i>
+
+                    <div>
+                        10AM - Midnight
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <div class="form">
+                <div class="form-group">
+                    <input type="text" id="fullName" placeholder="Seu nome completo">
+                    <label for="fullName">Nome</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu email">
+                    <label for="fullName">Email</label>
+                </div>
+                
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Mensagem"></textarea>
+                    <label for="message">Mensagem</label>
+                </div>
+
+                <div class="spacer60"></div>
+
+                <div class="center-btn-wrapper">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+    
+    
+    <div class="spacer60"></div>
+    
+    <div class="footer-wrapper">
+        <div class="banner-image">  
+            <img src="img/inosuke-transparent.png" alt="Logo">
+        </div>
+        
+        <div class="contact-hours-footer">
+            <span class="phone">
+                555 555 5555
+            </span>
+            
+            <span class="hours">
+                10 AM - MIDNIGHT
+            </span>
+        </div>
+        <div class="links-wrapper">
+            <div class="nav-link">
+                <a href="index.html">Home</a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="about.html">About</a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="menu.html">Menu</a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="contact.html">Contact</a>
+            </div>        
+        </div>
+        <div class="icon-wrapper">
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </div>
+        <div class="copyright-wrapper">
+            &copy; 2019 Lufe Corp &#124; Todos os direitos reservados
+        </div>
+    </div>
+
 </body>
 </html>
